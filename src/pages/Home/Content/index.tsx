@@ -9,7 +9,7 @@ function Content() {
   return (
     <>
       <div className="w-full bg-white">
-        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center">
+        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center px-5 xl:px-0">
           <GroupsImage className="col-span-7" />
           <div className="col-span-9/4">
             <h2 className="text-5xl font-bold mb-6">
@@ -24,7 +24,7 @@ function Content() {
         </div>
       </div>
       <div className="w-full bg-gray-100">
-        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center">
+        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center px-5 xl:px-0">
           <div className="col-span-1/4">
             <h2 className="text-5xl font-bold mb-6">
               Where hanging out is easy
@@ -39,7 +39,7 @@ function Content() {
         </div>
       </div>
       <div className="w-full bg-white">
-        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center">
+        <div className="max-w-7xl m-auto h-screen grid grid-cols-12 items-center px-5 xl:px-0">
           <RolesImage className="col-span-7" />
           <div className="col-span-9/4">
             <h2 className="text-5xl font-bold mb-6">From few to a fandom</h2>
@@ -52,7 +52,7 @@ function Content() {
         </div>
       </div>
       <div className="w-full bg-gray-100">
-        <div className="max-w-7xl m-auto min-h-screen grid grid-cols-12 items-center py-[120px]">
+        <div className="max-w-7xl m-auto min-h-screen grid grid-cols-12 items-center py-[120px] px-5 xl:px-0">
           <div className="col-span-2/10 justify-self-center">
             <h2 className="text-5xl font-bold mb-8 text-center">
               RELIABLE TECH FOR STAYING CLOSE
