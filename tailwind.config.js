@@ -9,7 +9,8 @@ module.exports = {
         primary: "#404EED",
         offBlack: "#23272a",
         blackTransparent: 'rgb(0 0 0 / 20%)',
-        blackish: '#333333'
+        blackish: '#333333',
+        darker: "#23272A"
       },
       fontFamily: {
         interTight: ['Inter Tight', 'sans-serif']
