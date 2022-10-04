@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <div className="w-full bg-primary lg:rounded-bl-xl lg:rounded-br-xl h-screen lg:h-auto">
+    <div className="w-full bg-primary lg:rounded-bl-xl lg:rounded-br-xl h-screen lg:h-auto relative">
       <div
         className={`fixed top-0 right-0 bottom-0 left-0 bg-blackTransparent ${
           !sideMenu && "hidden"
@@ -127,10 +127,10 @@ function Header() {
             more often.
           </p>
           <div className="flex gap-6 mt-8 flex-wrap">
-            <button className="whitespace-nowrap flex gap-2 items-center block bg-white text-gray-900 px-6 py-4 font-medium text-xl rounded-full duration-500 hover:text-primary hover:shadow-custom">
+            <button className="whitespace-nowrap flex gap-2 items-center block bg-white text-gray-900 px-4 py-2 md:px-6 md:py-4 font-medium text-lg lg:text-xl rounded-full duration-500 hover:text-primary hover:shadow-custom">
               <FaDownload /> Download for Mac
             </button>
-            <button className="whitespace-nowrap block bg-offBlack text-white px-6 py-4 font-medium text-xl rounded-full duration-500 hover:shadow-custom">
+            <button className="whitespace-nowrap block bg-offBlack text-white px-4 py-2 md:px-6 md:py-4 font-medium text-lg lg:text-xl rounded-full duration-500 hover:shadow-custom hover:bg-blackish">
               Open Discord in your browser
             </button>
           </div>
