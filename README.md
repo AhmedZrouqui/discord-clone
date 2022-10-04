@@ -2,6 +2,8 @@
 
 ### This project won't cover all the discord services, it is just a demonstration of my frontend skills.
 
+The project is online: https://superb-gnome-c7d83b.netlify.app/
+
 This project is a discord (website) clone. the application was installed with React `npx create-react-app`.
 
 The project is full typescript.
